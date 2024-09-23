@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Arrpractise {
     @SuppressWarnings("resource")
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         Scanner sc = new Scanner(System.in);
         // q1
         // float arr[] = new float[5];
@@ -99,6 +100,21 @@ public class Arrpractise {
         //     }
         //     System.out.println("");
         // }
+        // int arr[] = {78,67,87,89,98,85};
+        // System.out.println("Enter the number of students : ");
+        // int stud = sc.nextInt();
+        // int ar[] = new int[stud];
+        // System.out.println("Enter the marks of them respectively : ");
+        // for (int i : ar) {
+        //     ar[i] = sc.nextInt();
+        // }
+        // int sum = 0;
+        // for (int i : ar) {
+        //     sum =  sum + ar[i];
+        // }
+        // System.out.println(sum);
+        // float per = sum / stud ;
+        // System.out.println(per);
         
     }
 }
