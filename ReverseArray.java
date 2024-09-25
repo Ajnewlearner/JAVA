@@ -10,6 +10,7 @@ public class ReverseArray {
     public static void main(String[] args) {
         // reversing the array  
         // trial 1 mine
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of array u want : ");
         int x = sc.nextInt();
