@@ -12,7 +12,7 @@ public class ReverseArray {
         // trial 1 mine
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of array u want : ");
+        System.out.println("Enter the number of array, u want : ");
         int x = sc.nextInt();
         int arr[]  = new int[x];
         for (int j = 0 ;j < x ; j++) {

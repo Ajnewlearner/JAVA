@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class MaxArray {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         System.out.println("Enter the number of element in array : ");
         Scanner sc = new Scanner(System.in);
